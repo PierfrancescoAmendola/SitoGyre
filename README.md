@@ -7,7 +7,7 @@ Portfolio of a design and build studio, told as a 3D well: nine websites turning
 ## Stack
 
 - [Three.js](https://threejs.org/) 0.170 for the scene
-- [Vite](https://vite.dev/) 6 for dev server and build
+- [Vite](https://vite.dev/) 8 for dev server and build
 - Web Audio synth for sound (no audio files)
 - Bodoni Moda and Jost via Fontsource
 
