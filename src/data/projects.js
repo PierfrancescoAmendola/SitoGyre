@@ -1,0 +1,132 @@
+/**
+ * The nine placeholder sites on the wall. Every name, client and contact is invented.
+ * `page` drives the procedural recording drawn in engine/sitePages.js.
+ */
+export const PROJECTS = [
+  {
+    id: 'obverse',
+    num: '01',
+    name: 'Obverse',
+    tagline: 'A transparency account',
+    quote: '“Heads you spend. Tails you earn.”',
+    description: 'A bank card with nothing hidden on the back',
+    accent: '#8b7bff',
+    url: '#site/obverse',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#f1efea', fg: '#121218', surface: '#e2dfd8', muted: '#6d6b73', alt: '#151832' },
+    page: { art: 'card', display: 'sans', hero: 'Money, both sides.', band: 'OBVERSE', eyebrow: 'Open an account' }
+  },
+  {
+    id: 'farfield',
+    num: '02',
+    name: 'Farfield',
+    tagline: 'Packs for the long way round',
+    quote: '“Built for the far side.”',
+    description: 'Packs for the long way round',
+    accent: '#ff6a1f',
+    url: '#site/farfield',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#15241b', fg: '#f1ede4', surface: '#1f3327', muted: '#97a494', alt: '#0d1711' },
+    page: { art: 'pack', display: 'block', hero: 'NO SHORTCUTS', band: 'FARFIELD', eyebrow: 'Field notes, once a month' }
+  },
+  {
+    id: 'rosmarino',
+    num: '03',
+    name: 'Rosmarino',
+    tagline: 'A trattoria, on a wet night',
+    quote: '“Pull up a chair. Stay late.”',
+    description: 'A trattoria, on a wet night',
+    accent: '#e3a457',
+    url: '#site/rosmarino',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#2a1012', fg: '#f6eadc', surface: '#3b1a1b', muted: '#bb9a8a', alt: '#130708' },
+    page: { art: 'room', display: 'serif', hero: 'Rosmarino', band: 'Tavola', eyebrow: 'Book a table' }
+  },
+  {
+    id: 'tasto',
+    num: '04',
+    name: 'Tasto 75',
+    tagline: 'A keyboard, cut open mid-press',
+    quote: '“Every key, heard.”',
+    description: 'A keyboard, cut open mid-press',
+    accent: '#ff3b2f',
+    url: '#site/tasto-75',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#0c0c0d', fg: '#f4f4f2', surface: '#19191b', muted: '#8a8a88', alt: '#f0efeb' },
+    page: { art: 'keyboard', display: 'sans', hero: 'Tuned by ear.', band: 'TASTO 75', eyebrow: 'Cut open, mid-press' }
+  },
+  {
+    id: 'copper',
+    num: '05',
+    name: 'Copper & Main',
+    tagline: 'Plumbers, all night',
+    quote: '“Clean lines. Dry floors.”',
+    description: 'Plumbers, all night',
+    accent: '#ff7a2e',
+    url: '#site/copper-and-main',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#10303a', fg: '#eaf3f2', surface: '#17424e', muted: '#86a6a8', alt: '#0a1f26' },
+    page: { art: 'pipes', display: 'sans', hero: 'Clean lines. Dry floors.', band: '(503) 555-0147', eyebrow: 'Most of the metro is twenty minutes away' }
+  },
+  {
+    id: 'lind',
+    num: '06',
+    name: 'Lind',
+    tagline: 'A bottle that fills like a spring',
+    quote: '“Glass tells you it’s cold.”',
+    description: 'A bottle that fills like a spring',
+    accent: '#b9f26a',
+    url: '#site/lind',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#1b2c23', fg: '#eef3ea', surface: '#26392e', muted: '#93a596', alt: '#0f1a14' },
+    page: { art: 'bottle', display: 'serif', hero: 'spring.', band: 'Lind', eyebrow: 'Fixed, dried, checked' }
+  },
+  {
+    id: 'slick',
+    num: '07',
+    name: 'Slick',
+    tagline: 'A design & development studio',
+    quote: '“Made to look good. Built to feel different.”',
+    description: 'A design & development studio',
+    accent: '#ff2a4f',
+    url: '#site/slick',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#efe9df', fg: '#141414', surface: '#e2dbce', muted: '#7a736a', alt: '#e8193f' },
+    page: { art: 'ribbon', display: 'block', hero: 'SLICK', band: 'Most sites get looked at.', eyebrow: 'Orchard Ceramics · Tidal Audio' }
+  },
+  {
+    id: 'aureole',
+    num: '08',
+    name: 'Aureole',
+    tagline: 'A studio under a bronze angel',
+    quote: '“Make them look up.”',
+    description: 'A studio under a bronze angel',
+    accent: '#d8c49a',
+    url: '#site/aureole',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#0d0d0f', fg: '#efece4', surface: '#1a1a1d', muted: '#8f8b82', alt: '#26262a' },
+    page: { art: 'angel', display: 'serif', hero: 'AUREOLE', band: 'We make things people look up at.', eyebrow: 'Selected work' }
+  },
+  {
+    id: 'kasane',
+    num: '09',
+    name: 'Kasane',
+    tagline: 'A perfume, worn in layers',
+    quote: '“Worn in layers.”',
+    description: 'A perfume, worn in layers',
+    accent: '#ff6f9f',
+    url: '#site/kasane',
+    videoSrc: null,
+    hiResVideoSrc: null,
+    theme: { bg: '#a8123f', fg: '#fff1f4', surface: '#8e0f35', muted: '#f3a9bf', alt: '#5e0a24' },
+    page: { art: 'perfume', display: 'serif', hero: 'Three layers.', band: 'kasane', eyebrow: 'Top · Heart · Base' }
+  }
+];

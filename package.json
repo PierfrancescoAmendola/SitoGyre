@@ -1,0 +1,19 @@
+{
+  "name": "gyre-portfolio",
+  "version": "1.0.0",
+  "description": "GYRE — Design and build studio portfolio in a Three.js 3D well",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/bodoni-moda": "^5.2.8",
+    "@fontsource/jost": "^5.2.8",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
